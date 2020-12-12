@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './common.less';
-export const fn = () => {
+export const fn = (): void => {
     console.log('common', _.chunk(['a', 'b', 'c', 'd'], 2));
+
 };
 

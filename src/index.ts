@@ -5,6 +5,7 @@ import './index.less';
 import { test } from './thrid';
 test();
 
+
 console.log(process.env.DB_HOST);
 
 // 动态导入，webpack会自动分割代码
